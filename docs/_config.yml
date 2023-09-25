@@ -13,19 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: memo
-email: starry.contrail@gmail.com
-description: computer science, physics, mathematics memo
+title: memoria
+email: 
+description: 備忘録
 baseurl: "/memo" # the subpath of your site, e.g. /blog
 url: "https://stellacontrail.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username: StellaContraill
+github_username: StellaContrail
+paginate: 5
+permalink: pretty
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
