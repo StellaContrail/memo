@@ -16,8 +16,8 @@
 title: memo
 email: starry.contrail@gmail.com
 description: computer science, physics, mathematics memo
-baseurl: "/docs" # the subpath of your site, e.g. /blog
-url: "https://stellacontrail.github.io/memo" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/memo" # the subpath of your site, e.g. /blog
+url: "https://stellacontrail.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: StellaContraill
 
